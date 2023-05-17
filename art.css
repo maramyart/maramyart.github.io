@@ -1,0 +1,158 @@
+Author: Mara Perez
+Date: April 26, 2023
+Assignment: Final Project Phase 4
+*{box-sizing: border-box;}
+
+body { font-family:Didot, Didot LT STD, Hoefler Text, Garamond, Times New Roman, serif;
+background-color: #ffdce6;
+color: #000000;
+font-size: 17pt;
+}
+
+header { background-position: center;
+background-repeat: no-repeat; 
+background-color: #ffdce6;
+padding-right: 0em;
+}
+		  
+footer { font-size: 15pt; 
+text-align: center; 
+background-color: #F5F5F5;
+clear:both;
+}
+
+nav { font-size: 20pt; 
+padding-top: 0em;
+text-align: center;
+font-family: Didot, Didot LT STD, Hoefler Text, Garamond, Times New Roman, serif;
+background-color: #ffdce6;
+}
+nav a { text-decoration: none;}
+
+nav :link { color:#000000;}
+nav :visited{ color: #000000;}
+nav :hover{ color: #FFFFFF;}
+
+h1 { line-height: 400%; text-indent: 1em}
+li { font-size: 90%;}
+
+footer {padding-top:2em;}
+
+#contactimg {background-image: url(contactme.png);
+background-size: 45% 75%;
+background-repeat: no-repeat;
+height: 400px;
+background-position: right;
+}
+
+.button {
+  background-color: #F5F5F5; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+  border-radius:12px;
+  cursor:pointer;
+  width:25%;
+  height:25%;
+}
+
+.button2 {
+  background-color: #c8a2c8; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+  border-radius:12px;
+  cursor:pointer;
+  width:25%;
+  height:25%;
+}
+
+.onehalfleft{ float:left;
+width: 50%;
+padding-left: 2em;
+padding-right: 2em;
+}
+
+.onehalfright{ float:right;
+width: 50%;
+padding-left: 2em;
+padding-right: 5em;
+padding-top: 2em;
+}
+
+.onethird{ float:left;
+width: 33%;
+padding-left: 2em;
+padding-right: 2em;
+}
+
+.center {position:center;
+width: 90%;
+padding-left: 2em;
+padding-right: 2em;
+}
+
+#wrapper { background-color: #F5F5F5;
+padding: 2em;
+width:90%;
+margin-left: auto;
+margin-right:auto;
+max-width: 1600px;
+min-width: 900px;}
+
+table { border: 1px solid #40407A;
+margin-bottom: 1em;
+border-collapse: collapse;
+margin: 1em;
+font: bold;
+font-size: 120%;
+}
+
+tr {border: 1px solid #40407A;}
+
+td{ padding: 1em;
+border: 1px #40407A;
+}
+
+th { padding: 1em;
+border: 1px #40407A;
+}
+
+tr:nth-of-type(even)
+{ background-color: #89CFF0;}
+
+tr:nth-of-type(odd)
+{ background-color: #89CFF0;}
+
+@media (min-width: 600px ) {
+nav ul { display:flex;
+flex-direction: row;
+flex-wrap:nowrap;
+justify-content: flex-end;
+}
+section {padding-left: 2em;
+padding-right: 2em;
+flex:1;
+}
+}
+#contactimg {background-image: url(contactme.png);
+background-size: 45% 75%;
+background-repeat: no-repeat;
+height: 400px;
+background-position: right;
+}
+}
+ @media (min-width: 1024px) {
+
+#wrapper {margin:auto;
+width:90%;
+}
+}
