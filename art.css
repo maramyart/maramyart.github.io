@@ -132,7 +132,7 @@ tr:nth-of-type(even)
 tr:nth-of-type(odd)
 { background-color: #89CFF0;}
 
-@media (min-width: 600px ) {
+@media (min-width: 500px ) {
 nav ul { display:flex;
 flex-direction: row;
 flex-wrap:nowrap;
